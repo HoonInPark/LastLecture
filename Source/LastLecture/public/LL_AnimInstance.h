@@ -24,6 +24,6 @@ protected:
 	bool bIsPointing{ false };
 
 private:
-	virtual void Point_Message_Implementation() override;
+	virtual void Point_Message_Implementation(FVector _PointPosition) override;
 
 };

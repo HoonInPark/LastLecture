@@ -7,6 +7,7 @@ ULL_AnimInstance::ULL_AnimInstance()
 {
 }
 
-void ULL_AnimInstance::Point_Message_Implementation()
+void ULL_AnimInstance::Point_Message_Implementation(FVector _PointPosition)
 {
+	// LLLOG_S(Warning);
 }

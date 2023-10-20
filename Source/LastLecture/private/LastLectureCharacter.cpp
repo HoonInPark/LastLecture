@@ -21,10 +21,10 @@ ALastLectureCharacter::ALastLectureCharacter()
 {
 	// Character doesnt have a rifle at start
 	bHasRifle = false;
-	
+
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
-		
+
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
@@ -39,7 +39,6 @@ ALastLectureCharacter::ALastLectureCharacter()
 	Mesh1P->CastShadow = false;
 	//Mesh1P->SetRelativeRotation(FRotator(0.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
-
 }
 
 void ALastLectureCharacter::BeginPlay()
@@ -50,12 +49,12 @@ void ALastLectureCharacter::BeginPlay()
 	// Add Input Mapping Context
 	if (const APlayerController* PlayerController = Cast<APlayerController>(Controller))
 	{
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<
+			UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}
 	}
-
 }
 
 //////////////////////////////////////////////////////////////////////////// Input
@@ -76,12 +75,14 @@ void ALastLectureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ALastLectureCharacter::Look);
 
 		// Pointing
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ALastLectureCharacter::Point);
-		
+		EnhancedInputComponent->BindAction(PointAction, ETriggerEvent::Triggered, this, &ALastLectureCharacter::Point);
 	}
 	else
 	{
-		UE_LOG(LogTemplateCharacter, Error, TEXT("'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."), *GetNameSafe(this));
+		UE_LOG(LogTemplateCharacter, Error,
+		       TEXT(
+			       "'%s' Failed to find an Enhanced Input Component! This template is built to use the Enhanced Input system. If you intend to use the legacy system, then you will need to update this C++ file."
+		       ), *GetNameSafe(this));
 	}
 }
 
@@ -140,12 +141,10 @@ void ALastLectureCharacter::PreInitializeComponents()
 void ALastLectureCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ALastLectureCharacter::Point(const FInputActionValue& Value)
 {
-	if (!bHasRifle)
-		Execute_Point_Message(ThisAnimInstance);
+	Execute_Point_Message(ThisAnimInstance, FVector::ZeroVector);
 }
 #pragma endregion LastLecture

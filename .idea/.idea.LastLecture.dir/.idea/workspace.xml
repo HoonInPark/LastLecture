@@ -8,26 +8,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ccc3389-30b4-44f1-a858-0279961a08ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/FirstPerson/Input/Actions/LL_IA_Point.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/Mannequin_Press_Button1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/IKRig/LL_IKRetargeter.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/IKRig/LL_IKRig_1PArms.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/IKRig/LL_IK_Quinn.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/LastLecture/private/LL_Interface.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/LastLecture/public/LL_Interface.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Meshed/FirstPersonProjectileMesh.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/0/30/X6U0F9MFT62Z3ZFZGKK2I4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/1/WX/UEGUDAKJWPJ5KLCRPUYBFZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/65/6ZEIA9TQCNW6OS23OOR23A.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/76/RKH1MS26OEHIQYN4YWW4FP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/9U/7OBKBDKPMPQ7M580WV423M.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/QJ/3GCW0BE061W5DUE2Q7YFS8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/ZN/WKONFDK2ZMS5F5CAZQEL2K.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/3/1P/0YBDK8Z8VQVXSUL6184LWU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/EL/6DRJOB3DOSLO61VMEAD24T.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/SG/ASQD3S31ZV293Y9HA20P9S.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/5/2P/W9J5IZEQ8WM77HVZ0NT349.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/14/WIHVY05EUS8FPP8MDAMOEZ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/FT/4DHIZZ8TA5989M2MC184SC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ND/UCWWHQUCOQTQ59F5DZ7YRK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/QM/VS5X76YF0HFMXPI3CXX4Q1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/UP/W80K3MB2SZAN55DV5MEAC6.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ZE/SRWSQ2YLA82MBO18KHJ2ZL.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/B/6C/BR7AWWS5L1TGKVH3BZ1TYN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/C/ER/BHLEUTRXJ84VNL1UQATP0R.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/D/MX/5A2ZHQ30UELEXC09SXDUFQ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/4D/M2ABDZUIRG5FXH0KJ9SEM8.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/NC/CZ64NQEX6MA9O7O0J9AKRS.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Input/Actions/LL_IA_Point.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Input/Actions/LL_IA_Point.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Input/IMC_Default.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/ABP_1PArms.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/ABP_1PArms.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/IKRig_1PArms.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/SkeletalMeshes/1PArms/SK_Mannequin_Arms.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/SkeletalMeshes/1PArms/SK_Mannequin_Arms.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/SkeletalMeshes/Mannequin/SKM_Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/SkeletalMeshes/Mannequin/SKM_Manny_Simple.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/LastLecture/private/LL_AnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/private/LL_AnimInstance.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/LastLecture/private/LastLectureCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/private/LastLectureCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/TP_PickUpComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/TP_PickUpComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LL_Interface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LL_Interface.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +189,7 @@
       <updated>1697791328669</updated>
       <workItem from="1697791330775" duration="1236000" />
       <workItem from="1697794357501" duration="16000" />
-      <workItem from="1697794476704" duration="11979000" />
+      <workItem from="1697794476704" duration="15709000" />
     </task>
     <servers />
   </component>

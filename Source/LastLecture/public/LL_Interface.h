@@ -23,5 +23,5 @@ class LASTLECTURE_API ILL_Interface
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Interface")
-	void Point_Message();
+	void Point_Message(FVector _PointPosition);
 };
