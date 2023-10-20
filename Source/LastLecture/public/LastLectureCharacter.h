@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LastLecture.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
 #include "LastLectureCharacter.generated.h"

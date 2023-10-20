@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LastLecture.h"
 #include "GameFramework/PlayerController.h"
 #include "LastLecturePlayerController.generated.h"
 

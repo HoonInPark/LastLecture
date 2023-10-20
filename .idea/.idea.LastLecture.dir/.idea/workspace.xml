@@ -7,43 +7,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccc3389-30b4-44f1-a858-0279961a08ee" name="Changes" comment="" />
+    <list default="true" id="1ccc3389-30b4-44f1-a858-0279961a08ee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureGameMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLecturePlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLecturePlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureProjectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureProjectile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/TP_WeaponComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/TP_WeaponComponent.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/LastLecture/private/LastLecture.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/LastLecture/private/LastLectureCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/LastLecture/public/LastLecture.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2X1KpNefVU4SM8XURoHwwb0nnu0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/skyearthandme/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/skyearthandme/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LastLecture" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LastLecture.uproject" />
@@ -115,7 +133,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697791328669</updated>
-      <workItem from="1697791330775" duration="704000" />
+      <workItem from="1697791330775" duration="1236000" />
+      <workItem from="1697794357501" duration="16000" />
+      <workItem from="1697794476704" duration="315000" />
     </task>
     <servers />
   </component>

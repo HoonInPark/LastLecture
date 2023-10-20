@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LastLecture.h"
 #include "Animation/AnimInstance.h"
 #include "LL_AnimInstance.generated.h"
 

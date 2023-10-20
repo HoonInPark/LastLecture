@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LastLecture.h"
 #include "GameFramework/Actor.h"
 #include "LastLectureProjectile.generated.h"
 
