@@ -9,6 +9,7 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "LL_AnimInstance.h"
 #include "Engine/LocalPlayer.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
@@ -47,7 +48,7 @@ void ALastLectureCharacter::BeginPlay()
 	Super::BeginPlay();
 
 	// Add Input Mapping Context
-	if (APlayerController* PlayerController = Cast<APlayerController>(Controller))
+	if (const APlayerController* PlayerController = Cast<APlayerController>(Controller))
 	{
 		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
 		{
@@ -73,6 +74,10 @@ void ALastLectureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ALastLectureCharacter::Look);
+
+		// Pointing
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &ALastLectureCharacter::Point);
+		
 	}
 	else
 	{
@@ -116,3 +121,31 @@ bool ALastLectureCharacter::GetHasRifle()
 {
 	return bHasRifle;
 }
+
+#pragma region LastLecture
+void ALastLectureCharacter::PreInitializeComponents()
+{
+	Super::PreInitializeComponents();
+
+	UAnimInstance* CurrentAnimInstance = GetMesh()->GetAnimInstance();
+	if (!CurrentAnimInstance)
+	{
+		ThisAnimInstance = NewObject<ULL_AnimInstance>(GetMesh(), ULL_AnimInstance::StaticClass());
+		GetMesh()->SetAnimInstanceClass(ThisAnimInstance->GetClass());
+	}
+	else
+		ThisAnimInstance = CurrentAnimInstance;
+}
+
+void ALastLectureCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
+void ALastLectureCharacter::Point(const FInputActionValue& Value)
+{
+	if (!bHasRifle)
+		Execute_Point_Message(ThisAnimInstance);
+}
+#pragma endregion LastLecture

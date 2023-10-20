@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "LastLecture.h"
 #include "Components/SphereComponent.h"
 #include "LastLectureCharacter.h"
 #include "TP_PickUpComponent.generated.h"

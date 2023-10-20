@@ -3,3 +3,10 @@
 
 #include "LL_AnimInstance.h"
 
+ULL_AnimInstance::ULL_AnimInstance()
+{
+}
+
+void ULL_AnimInstance::Point_Message_Implementation()
+{
+}

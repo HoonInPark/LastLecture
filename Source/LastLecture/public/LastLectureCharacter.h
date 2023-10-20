@@ -5,6 +5,7 @@
 #include "LastLecture.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "LL_Interface.h"
 #include "LastLectureCharacter.generated.h"
 
 class UInputComponent;
@@ -17,7 +18,7 @@ struct FInputActionValue;
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
-class ALastLectureCharacter : public ACharacter
+class ALastLectureCharacter : public ACharacter, public ILL_Interface
 {
 	GENERATED_BODY()
 
@@ -83,5 +84,21 @@ public:
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+#pragma region LastLecture
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
+	UInputAction* PointAction;
+	UPROPERTY()
+	UAnimInstance* ThisAnimInstance{ nullptr };
+
+public:
+	virtual void PreInitializeComponents() override;
+
+private:
+	virtual void Tick(float DeltaTime) override;
+
+protected:
+	void Point(const FInputActionValue& Value);
+
+#pragma endregion LastLecture
 };
 
