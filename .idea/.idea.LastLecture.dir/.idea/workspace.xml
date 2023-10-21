@@ -7,40 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccc3389-30b4-44f1-a858-0279961a08ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LastLecture.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPersonArms/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/ABP_1PArms.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/ABP_1PArms.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/Mannequin_Press_Button1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Animations/Mannequin_Press_Button1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/_01_ProceduralIKRig/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/0/30/X6U0F9MFT62Z3ZFZGKK2I4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/0/30/X6U0F9MFT62Z3ZFZGKK2I4.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/1/WX/UEGUDAKJWPJ5KLCRPUYBFZ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/1/WX/UEGUDAKJWPJ5KLCRPUYBFZ.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/65/6ZEIA9TQCNW6OS23OOR23A.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/65/6ZEIA9TQCNW6OS23OOR23A.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/76/RKH1MS26OEHIQYN4YWW4FP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/76/RKH1MS26OEHIQYN4YWW4FP.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/9U/7OBKBDKPMPQ7M580WV423M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/9U/7OBKBDKPMPQ7M580WV423M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/QJ/3GCW0BE061W5DUE2Q7YFS8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/QJ/3GCW0BE061W5DUE2Q7YFS8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/ZN/WKONFDK2ZMS5F5CAZQEL2K.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/2/ZN/WKONFDK2ZMS5F5CAZQEL2K.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/3/1P/0YBDK8Z8VQVXSUL6184LWU.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/3/1P/0YBDK8Z8VQVXSUL6184LWU.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/EL/6DRJOB3DOSLO61VMEAD24T.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/EL/6DRJOB3DOSLO61VMEAD24T.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/SG/ASQD3S31ZV293Y9HA20P9S.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/4/SG/ASQD3S31ZV293Y9HA20P9S.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/5/2P/W9J5IZEQ8WM77HVZ0NT349.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/5/2P/W9J5IZEQ8WM77HVZ0NT349.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/14/WIHVY05EUS8FPP8MDAMOEZ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/14/WIHVY05EUS8FPP8MDAMOEZ.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/FT/4DHIZZ8TA5989M2MC184SC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/6/FT/4DHIZZ8TA5989M2MC184SC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ND/UCWWHQUCOQTQ59F5DZ7YRK.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ND/UCWWHQUCOQTQ59F5DZ7YRK.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/QM/VS5X76YF0HFMXPI3CXX4Q1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/QM/VS5X76YF0HFMXPI3CXX4Q1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/UP/W80K3MB2SZAN55DV5MEAC6.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/UP/W80K3MB2SZAN55DV5MEAC6.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ZE/SRWSQ2YLA82MBO18KHJ2ZL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/7/ZE/SRWSQ2YLA82MBO18KHJ2ZL.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/B/6C/BR7AWWS5L1TGKVH3BZ1TYN.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/B/6C/BR7AWWS5L1TGKVH3BZ1TYN.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/C/ER/BHLEUTRXJ84VNL1UQATP0R.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/C/ER/BHLEUTRXJ84VNL1UQATP0R.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/D/MX/5A2ZHQ30UELEXC09SXDUFQ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/D/MX/5A2ZHQ30UELEXC09SXDUFQ.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/4D/M2ABDZUIRG5FXH0KJ9SEM8.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/4D/M2ABDZUIRG5FXH0KJ9SEM8.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/NC/CZ64NQEX6MA9O7O0J9AKRS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/_01_ProceduralIKRig/Maps/_01_ProceduralIKRig/E/NC/CZ64NQEX6MA9O7O0J9AKRS.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/private/LL_AnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/private/LL_AnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/private/LastLectureCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/private/LastLectureCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LL_AnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/LastLecture/public/LastLectureCharacter.h" afterDir="false" />
-    </list>
+    <list default="true" id="1ccc3389-30b4-44f1-a858-0279961a08ee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,27 +147,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/Users/skyearthandme/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/Users/skyearthandme/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/Users/skyearthandme/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="LastLecture" type="Uproject" factoryName="rider.uproject">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/LastLecture.uproject" />
