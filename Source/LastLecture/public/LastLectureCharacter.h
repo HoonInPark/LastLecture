@@ -85,6 +85,9 @@ public:
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
 #pragma region LastLecture
+public:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Box)
+	UBoxComponent* Box;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Input, meta=(AllowPrivateAccess = "true"))
 	UInputAction* PointAction;
 	UPROPERTY()

@@ -19,11 +19,14 @@ class LASTLECTURE_API ULL_AnimInstance : public UAnimInstance, public ILL_Interf
 
 protected:
 	UPROPERTY(BlueprintReadOnly, Category=IKRig)
-	FVector PointingGoal{ FVector(0.f, 0.f, 0.f) };
+	FVector TargetLocation{ FVector(0.f, 0.f, 0.f) };
 	UPROPERTY(BlueprintReadOnly, Category=IKRig)
 	bool bIsPointing{ false };
 
 private:
-	virtual void Point_Message_Implementation(FVector _PointPosition) override;
+	virtual void Point_Message_Implementation(FVector _TargetLocation) override;
 
+private:
+	UFUNCTION()
+	void AnimNotify_PointEnded();
 };

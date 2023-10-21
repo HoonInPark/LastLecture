@@ -7,7 +7,15 @@ ULL_AnimInstance::ULL_AnimInstance()
 {
 }
 
-void ULL_AnimInstance::Point_Message_Implementation(FVector _PointPosition)
+void ULL_AnimInstance::Point_Message_Implementation(FVector _TargetLocation)
 {
-	// LLLOG_S(Warning);
+	TargetLocation = _TargetLocation;
+	bIsPointing = true;
 }
+
+void ULL_AnimInstance::AnimNotify_PointEnded()
+{
+	bIsPointing = false;
+}
+
+

@@ -11,6 +11,7 @@
 #include "InputActionValue.h"
 #include "LL_AnimInstance.h"
 #include "Engine/LocalPlayer.h"
+#include "Engine/StaticMeshActor.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -39,6 +40,11 @@ ALastLectureCharacter::ALastLectureCharacter()
 	Mesh1P->CastShadow = false;
 	//Mesh1P->SetRelativeRotation(FRotator(0.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-30.f, 0.f, -150.f));
+
+	Box = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
+	Box->SetupAttachment(GetCapsuleComponent());
+	Box->SetBoxExtent(FVector(32.f, 32.f, 32.f));
+	Box->SetRelativeLocation(FVector(2.250000f, 3.250000f, 3.000000f));
 }
 
 void ALastLectureCharacter::BeginPlay()
@@ -90,7 +96,7 @@ void ALastLectureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 void ALastLectureCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
-	FVector2D MovementVector = Value.Get<FVector2D>();
+	const FVector2D MovementVector = Value.Get<FVector2D>();
 
 	if (Controller != nullptr)
 	{
@@ -103,7 +109,7 @@ void ALastLectureCharacter::Move(const FInputActionValue& Value)
 void ALastLectureCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
-	FVector2D LookAxisVector = Value.Get<FVector2D>();
+	const FVector2D LookAxisVector = Value.Get<FVector2D>();
 
 	if (Controller != nullptr)
 	{
@@ -145,6 +151,24 @@ void ALastLectureCharacter::Tick(float DeltaTime)
 
 void ALastLectureCharacter::Point(const FInputActionValue& Value)
 {
-	Execute_Point_Message(ThisAnimInstance, FVector::ZeroVector);
+	TArray<AActor*> OverlappingActors;
+	// 여기 GetOverlappingActors 두번째 인수에 어떤 값을 넣어줘야 하는지 엔진 소스를 보고 설명하기
+	Box->GetOverlappingActors(OverlappingActors, AStaticMeshActor::StaticClass()); 
+
+	if (0 != OverlappingActors.Num())
+	{
+		FVector TargetLocation;
+		float Distance = 100000000.f;
+
+		for (const auto OverlappingActor : OverlappingActors)
+		{
+			const float Distance_temp = FVector::Dist(FirstPersonCameraComponent->GetComponentLocation(),
+			                                          OverlappingActor->GetActorLocation());
+
+			TargetLocation = Distance < Distance_temp ? TargetLocation : OverlappingActor->GetActorLocation();
+			Distance = Distance < Distance_temp ? Distance : Distance_temp;
+		}
+		Execute_Point_Message(ThisAnimInstance, TargetLocation);
+	}
 }
 #pragma endregion LastLecture
